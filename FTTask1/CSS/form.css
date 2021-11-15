@@ -1,0 +1,26 @@
+#para {
+    background-color: rgb(1, 98, 143);
+  }
+
+part{
+    background-color: rgb(73, 193, 248);
+}
+
+center {
+    text-align: center; 
+  }
+
+  div 
+  {
+    background-color: rgba(64, 109, 146, 0.548)
+  }
+
+  border
+  {
+    background-color: rgba(30, 1, 44, 0.548);
+  }
+
+  form
+  {
+    background-color: rgba(248, 200, 44, 0.548);
+  }
