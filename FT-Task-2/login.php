@@ -6,7 +6,7 @@
 
 <body>
 <h1>Registration form </h1>
-<p id='mytext'> </p>
+<p id="mytext"> </p>
 
 <form name="myForm" action="" onsubmit="return validateForm()" method="post">
 
