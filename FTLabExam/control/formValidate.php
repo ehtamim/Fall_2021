@@ -10,7 +10,7 @@ $userQuery=$connection->ShowAll($conobj,"faculty");
 
 if ($userQuery->num_rows > 0)
  {
-    echo "<table><tr><th>ID</th><th>Name</th><th>Department</th><th>Interest</th></tr>Designation</th></tr>";
+    echo "<table><tr><th>ID</th><th>Name</th><th>Department</th><th>Interest</th><th>Designation</th></tr>";
     while($row = $userQuery->fetch_assoc()) 
     {
       echo "<tr><td>".$row["ID"]."</td><td>".$row["Name"]."</td><td>".$row["Department"]."</td><td>".$row["Interest"]."</td><td>".$row["Designation"]."</td></tr>";
