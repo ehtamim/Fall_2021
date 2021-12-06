@@ -4,7 +4,7 @@
 <script src="../js/myjs.js"></script>
 </head>
 <body>
-    <form action="">
+    <form action="" method="post">
        Search by Faculty Name:   <input type="text" id="name" name="name" onkeyup="SearchName()"> 
        <p id="message"> </p> <br>
        Search by Reseach Internet: <input type="text" id="interst" name=""> <br>
